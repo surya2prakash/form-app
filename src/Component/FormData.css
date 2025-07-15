@@ -1,0 +1,78 @@
+/* FormData.css */
+
+.main {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form_Container label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.form_Container input[type="text"],
+.form_Container input[type="email"],
+.form_Container input[type="password"],
+.form_Container select,
+.form_Container textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form_Container textarea {
+  resize: vertical;
+}
+
+.form_Container input[type="radio"],
+.form_Container input[type="checkbox"] {
+  margin-right: 0.5rem;
+  transform: scale(1.2);
+}
+
+.form_Container label[for^="gen_"],
+.form_Container label[for^="foot"],
+.form_Container label[for^="cric"],
+.form_Container label[for^="teni"],
+.form_Container label[for^="kabad"],
+.form_Container label[for^="run"],
+.form_Container label[for^="movie"],
+.form_Container label[for^="game"] {
+  display: inline-block;
+  margin-right: 1rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+
+.form_Container button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form_Container button:hover {
+  background-color: #005fcc;
+}
